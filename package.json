@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,6 @@
   "homepage": "https://github.com/kea6t/u-develop-it#readme",
   "dependencies": {
     "mysql2": "^2.3.3"
-  }
+  },
+  "devDependencies": {}
 }
